@@ -1,4 +1,5 @@
 @import "components/header";
+@import "components/footer";
 @import "components/hero";
 @import "components/variables";
 
@@ -7,7 +8,6 @@
 }
 
 //Overides
-
 .dropdown-menu {
   box-shadow: 0 2px 0 rgba(211,217,217,0.5);
   border: none;

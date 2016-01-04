@@ -5,7 +5,7 @@ var Footer = React.createClass({
   render: function() {
 
     return (
-      <div>
+      <div className="footer">
         <p>I'm just a wee lil footer.</p>
       </div>
     );
