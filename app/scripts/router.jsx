@@ -5,12 +5,12 @@ var DefaultRoute = Router.DefaultRoute;
 
 var Layout = require('./components/layout');
 var Home = require('./components/home');
-var Product = require('./components/product/product');
+var PageHeader = require('./components/blueprints/pageHeader');
 
 var routes = (
   <Route name="layout" path="/" handler={Layout}>
     <DefaultRoute handler={Home} />
-    <Route handler={Product} name="/product" />
+    <Route handler={PageHeader} name="/pageheader" />
   </Route>
 );
 
