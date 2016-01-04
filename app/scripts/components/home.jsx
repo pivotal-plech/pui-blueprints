@@ -2,6 +2,8 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var Navigation = require('react-router').Navigation;
+var Media = require('pui-react-media').Media;
+var Flag = require('pui-react-media').Flag;
 
 var Hero = require('./hero.jsx');
 
