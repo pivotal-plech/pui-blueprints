@@ -1,11 +1,10 @@
 {
-  "name": "pivotalDocs",
+  "name": "pivotalUiBlueprints",
   "version": "0.0.0",
-  "description": "Pivotal Documentation",
+  "description": "Pivotal UI Blueprints",
   "author": "Spencer Hurst",
   "license": "MIT",
   "dependencies": {
-    "firebase": "^2.3.2",
     "jquery": "~2.1.3",
     "lodash": "^3.10.1",
     "pui-css-alignment": "^2.0.0",
