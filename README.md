@@ -19,10 +19,37 @@ We can help them with a collection of larger components currently not canonized 
 We'll know we're right if teams copy and paste our components in their applications.
 
 ##Getting Started
-git clone __
-cd __
+
+clone the repo:
+```
+git clone git@github.com:pivotal-plech/pui-blueprints.git && cd pui-blueprints
+```
+
+install all the npm modules:
+
+```
 npm i
+```
+
+start the server:
+
+```
 gulp serve
+```
+
+This repo is using the [yeoman generator react-reflux](https://github.com/tfaga/generator-react-reflux). To take full advantage of some of the generators, you'll need to install yeoman and the generator:
+
+Install `Yeoman`:
+
+```
+npm install -g yo
+```
+
+Install `generator-react-reflux`:
+
+```
+npm install -g generator-react-reflux
+```
 
 ##Contributing
 Pull requests are welcome. Build out your own component and PR for Review :)
