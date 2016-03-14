@@ -7,7 +7,7 @@ var Flag = require('pui-react-media').Flag;
 
 var Hero = require('./hero.jsx');
 
-var TileLayout = require('pui-react-tile-layout');
+var TileLayout = require('pui-react-tile-layout').TileLayout;
 var BasicPanelAlt = require('pui-react-panels').BasicPanelAlt;
 
 var Header = require('./header');
@@ -28,36 +28,18 @@ var Home = React.createClass({
             <hr />
             <TileLayout columns={2}>
               <TileLayout.Item>
-                <a href="#/pageheader">
                   <BasicPanelAlt className="mvn">
-                    <h3 className="type-dark-1 mvn">Page Header</h3>
-                    <Flag leftImage={mediaAlignmentImage} leftMediaSpacing='xlarge'>
+                    <h3 className="type-dark-1 mvn"><a href="#/pageheader">Page Header</a></h3>
+                    <Flag image={mediaAlignmentImage} leftMediaSpacing='xlarge'>
                       A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality.	...
                     </Flag>
                   </BasicPanelAlt>
-                </a>
               </TileLayout.Item>
               <TileLayout.Item>
                 <BasicPanelAlt className="mvn">
-                  <h3 className="type-dark-1 mvn">Page Stack Navigation</h3>
-                  <Flag leftImage={mediaAlignmentImage} leftMediaSpacing='xlarge'>
-                    A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality.	...
-                  </Flag>
-                </BasicPanelAlt>
-              </TileLayout.Item>
-              <TileLayout.Item>
-                <BasicPanelAlt className="mvn">
-                  <h3 className="type-dark-1 mvn">Page Stack Navigation</h3>
-                  <Flag leftImage={mediaAlignmentImage} leftMediaSpacing='xlarge'>
-                    A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality.	...
-                  </Flag>
-                </BasicPanelAlt>
-              </TileLayout.Item>
-              <TileLayout.Item>
-                <BasicPanelAlt className="mvn">
-                  <h3 className="type-dark-1 mvn">Page Stack Navigation</h3>
-                  <Flag leftImage={mediaAlignmentImage} leftMediaSpacing='xlarge'>
-                    A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality.	...
+                  <h3 className="type-dark-1 mvn"><a href="#/panels">Panels</a></h3>
+                  <Flag image={mediaAlignmentImage} leftMediaSpacing='xlarge'>
+                    How and when to use panels and cards.
                   </Flag>
                 </BasicPanelAlt>
               </TileLayout.Item>
